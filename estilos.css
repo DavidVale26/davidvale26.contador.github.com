@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+    background: #38d5e1;
+    background-image: url(https://pbs.twimg.com/media/Faxw6GEXkAALqBE?format=jpg&name=small);
+}
+
+.contenedor{
+    display: flex;
+    width: 300px;
+    height: 320px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #377E83;
+    box-shadow:  7px 7px 7px #2E6367,
+             -7px -7px 7px #2E6367;
+}
+
+.contar{
+    font-size: 5rem;
+}
+
+.titulo{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.botones{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 5px;
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: black;
+    border:none;
+    border-radius: 5px;
+}
+
+span{
+    color: white;
+}
+
+.reset{
+    width: 50px;
+    height: 25px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script>
+        
+        function r() {
+            location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+        setTimeout("r()",60000);
+
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Facha</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+    <p class="titulo">Contador de Facha</p>
+    <p class="contar" id="contar">0</p>
+
+    <div class="botones">
+        <button class="incr" id="incr"><span class="material-icons-round">add</span></button>
+        <button class="decr" id="decr"><span class="material-icons-round">remove</span></button>
+        <button class="reset" id="reset"><span class="material-icons-round">cached</span></button>
+    </div>
+    <div id:="secondsdisplay"></div>
+   </div> 
+</body>
+<script src="main.js"></script>
+</html>
